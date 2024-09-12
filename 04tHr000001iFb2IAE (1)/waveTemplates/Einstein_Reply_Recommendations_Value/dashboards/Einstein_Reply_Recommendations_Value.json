@@ -1,0 +1,6607 @@
+{
+  "name" : "Einstein_Reply_Recommendations_Value_tp",
+  "label" : "Einstein Reply Recommendations Value",
+  "folder" : {
+    "id" : "${App.Folder.Id}"
+  },
+  "dateVersion" : 1,
+  "mobileDisabled" : false,
+  "xmd" : {
+    "measures" : [
+      {
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "field" : "all_28.PER_POST",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "field" : "all_27.PER_EDIT",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "all_30.Engaged_Conversations_Rate",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "field" : "all_30.Count_POST",
+        "format" : {
+          "delimiters" : { }
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "all_30.PERC_EDIT_PEN",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "all_30.PERC_NH_PEN",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "all_30.PERC_POST_PEN",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      },
+      {
+        "conditionalFormatting" : { },
+        "field" : "all_10.Interaction Rate",
+        "format" : {
+          "delimiters" : { },
+          "customFormat" : "[\"#,###.##%\",100]"
+        }
+      }
+    ],
+    "derivedDimensions" : [ ],
+    "organizations" : [ ],
+    "showDetailsDefaultFields" : [ ],
+    "dates" : [ ],
+    "derivedMeasures" : [ ],
+    "dimensions" : [
+      {
+        "recordDisplayFields" : [ ],
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "salesforceActions" : [ ],
+        "field" : "all_28.ALL",
+        "members" : [ ],
+        "customActions" : [ ]
+      },
+      {
+        "recordDisplayFields" : [ ],
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "salesforceActions" : [ ],
+        "field" : "all_27.ALL",
+        "members" : [ ],
+        "customActions" : [ ]
+      },
+      {
+        "recordDisplayFields" : [ ],
+        "conditionalFormatting" : {
+          "chartColor" : {
+            "referenceField" : "A",
+            "type" : "multiple",
+            "parameters" : {
+              "bins" : [
+                {
+                  "formatValue" : "linear-gradient(to bottom, #F71979, #CC203D)",
+                  "bin" : "*"
+                },
+                {
+                  "formatValue" : "linear-gradient(to bottom, #95FFFF, #95FFFF)",
+                  "bin" : "0"
+                }
+              ]
+            }
+          }
+        },
+        "salesforceActions" : [ ],
+        "field" : "all_30.ALL",
+        "members" : [ ],
+        "customActions" : [ ]
+      },
+      {
+        "recordIdField" : "QuickText ID",
+        "recordDisplayFields" : [
+          "QuickText ID"
+        ],
+        "linkTemplateEnabled" : true,
+        "conditionalFormatting" : { },
+        "salesforceActions" : [ ],
+        "field" : "Page3_chart1_1.QuickText ID",
+        "members" : [ ],
+        "customActions" : [ ],
+        "salesforceActionsEnabled" : true
+      },
+      {
+        "recordIdField" : "QuickText ID",
+        "recordDisplayFields" : [
+          "QuickText ID"
+        ],
+        "linkTemplateEnabled" : true,
+        "conditionalFormatting" : { },
+        "salesforceActions" : [ ],
+        "field" : "Clone_of_Page3_chart_1.QuickText ID",
+        "members" : [ ],
+        "customActions" : [ ],
+        "salesforceActionsEnabled" : true
+      },
+      {
+        "recordIdField" : "QuickText ID",
+        "recordDisplayFields" : [
+          "QuickText ID"
+        ],
+        "linkTemplateEnabled" : true,
+        "conditionalFormatting" : { },
+        "salesforceActions" : [ ],
+        "field" : "all_10.QuickText ID",
+        "members" : [ ],
+        "customActions" : [ ],
+        "salesforceActionsEnabled" : true
+      }
+    ]
+  },
+  "state" : {
+    "dataSourceLinks" : [ ],
+    "filters" : [ ],
+    "gridLayouts" : [
+      {
+        "maxWidth" : 1200,
+        "name" : "Default",
+        "numColumns" : 47,
+        "pages" : [
+          {
+            "label" : "Business Value",
+            "name" : "5522d023-e841-4002-97b9-480409e1fb93",
+            "navigationHidden" : false,
+            "widgets" : [
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "text_1",
+                "row" : 13,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "text_8",
+                "row" : 13,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "container_1",
+                "row" : 17,
+                "rowspan" : 31,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(9, 26, 62)",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 8,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 2,
+                "name" : "text_5",
+                "row" : 23,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 14,
+                "name" : "text_2",
+                "row" : 23,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "container_5",
+                "row" : 17,
+                "rowspan" : 31,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(9, 26, 62)",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 8,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 25,
+                "name" : "text_9",
+                "row" : 35,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 31,
+                "name" : "text_13",
+                "row" : 25,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 25,
+                "name" : "text_10",
+                "row" : 39,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 11,
+                "column" : 25,
+                "name" : "text_11",
+                "row" : 43,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "container_8",
+                "row" : 54,
+                "rowspan" : 31,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(9, 26, 62)",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 8,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "container_9",
+                "row" : 54,
+                "rowspan" : 31,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(9, 26, 62)",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 8,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "container_2",
+                "row" : 0,
+                "rowspan" : 10,
+                "widgetStyle" : {
+                  "borderColor" : "rgb(0, 112, 210)",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderWidth" : 4
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 1,
+                "name" : "text_6",
+                "row" : 40,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "#FFFFFF",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 1,
+                "name" : "text_7",
+                "row" : 30,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "#FFFFFF",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "text_14",
+                "row" : 50,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "text_15",
+                "row" : 50,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 12,
+                "column" : 1,
+                "name" : "chart_1",
+                "row" : 33,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 12,
+                "column" : 1,
+                "name" : "chart_2",
+                "row" : 43,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "number_12",
+                "row" : 28,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "#3AE867",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "text_3",
+                "row" : 33,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "text_4",
+                "row" : 43,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 14,
+                "name" : "number_16",
+                "row" : 18,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "#3AE867",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 14,
+                "name" : "text_16",
+                "row" : 59,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "text_17",
+                "row" : 68,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "text_18",
+                "row" : 77,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "rgb(230, 236, 242)",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 8
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 31,
+                "name" : "number_1",
+                "row" : 18,
+                "rowspan" : 7,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "number_5",
+                "row" : 64,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "number_6",
+                "row" : 54,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 13,
+                "column" : 1,
+                "name" : "chart_5",
+                "row" : 58,
+                "rowspan" : 26,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 14,
+                "column" : 25,
+                "name" : "chart_7",
+                "row" : 58,
+                "rowspan" : 26,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 39,
+                "name" : "text_26",
+                "row" : 62,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 39,
+                "name" : "text_29",
+                "row" : 75,
+                "rowspan" : 7,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 5,
+                "column" : 4,
+                "name" : "number_4",
+                "row" : 18,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 4,
+                "column" : 8,
+                "name" : "number_7",
+                "row" : 31,
+                "rowspan" : 2,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 4,
+                "column" : 8,
+                "name" : "number_9",
+                "row" : 41,
+                "rowspan" : 2,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 5,
+                "column" : 40,
+                "name" : "number_18",
+                "row" : 69,
+                "rowspan" : 6,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#FFFFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "number_22",
+                "row" : 73,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 5,
+                "column" : 40,
+                "name" : "number_8",
+                "row" : 56,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 7,
+                "column" : 15,
+                "name" : "number_14",
+                "row" : 38,
+                "rowspan" : 5,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#95FFB0",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 36,
+                "name" : "text_19",
+                "row" : 40,
+                "rowspan" : 8,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 1,
+                "name" : "listselector_4",
+                "row" : 54,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 25,
+                "name" : "listselector_2",
+                "row" : 54,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "text_20",
+                "row" : 29,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 9,
+                "column" : 1,
+                "name" : "dateselector_4",
+                "row" : 1,
+                "rowspan" : 7,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 32,
+                "column" : 10,
+                "name" : "navigation_4",
+                "row" : 5,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#FFFFFF",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 34,
+                "name" : "listselector_9",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 41,
+                "name" : "listselector_10",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              }
+            ]
+          },
+          {
+            "label" : "Agent Interactions",
+            "name" : "a35d7b73-e5c8-40bb-a90d-08ec2318cf1b",
+            "navigationHidden" : false,
+            "widgets" : [
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "container_7",
+                "row" : 0,
+                "rowspan" : 10,
+                "widgetStyle" : {
+                  "backgroundColor" : "#FFFFFF",
+                  "borderColor" : "rgb(0, 112, 210)",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 4
+                }
+              },
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "text_22",
+                "row" : 10,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 1,
+                "name" : "text_23",
+                "row" : 14,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "rgb(9, 26, 62)",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "container_11",
+                "row" : 10,
+                "rowspan" : 56,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 8,
+                "column" : 1,
+                "name" : "number_2",
+                "row" : 19,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 16,
+                "column" : 0,
+                "name" : "text_24",
+                "row" : 24,
+                "rowspan" : 8,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 16,
+                "name" : "chart_29",
+                "row" : 13,
+                "rowspan" : 19,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#091A3E",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 26,
+                "name" : "chart_30",
+                "row" : 13,
+                "rowspan" : 19,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 10,
+                "column" : 36,
+                "name" : "chart_31",
+                "row" : 13,
+                "rowspan" : 19,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderEdges" : [ ]
+                }
+              },
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "text_25",
+                "row" : 36,
+                "rowspan" : 3,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 9,
+                "column" : 17,
+                "name" : "text_30",
+                "row" : 32,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 11,
+                "column" : 36,
+                "name" : "text_31",
+                "row" : 32,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 9,
+                "column" : 27,
+                "name" : "text_32",
+                "row" : 32,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "chart_12",
+                "row" : 39,
+                "rowspan" : 24,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [ ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 1
+                }
+              },
+              {
+                "colspan" : 9,
+                "column" : 1,
+                "name" : "dateselector_2",
+                "row" : 1,
+                "rowspan" : 7,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 32,
+                "column" : 10,
+                "name" : "navigation_2",
+                "row" : 5,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#FFFFFF",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 34,
+                "name" : "listselector_1",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 41,
+                "name" : "listselector_3",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              }
+            ]
+          },
+          {
+            "label" : "QuickText Performance",
+            "name" : "445524a0-143e-4bec-bdc9-8b951b731442",
+            "navigationHidden" : false,
+            "widgets" : [
+              {
+                "colspan" : 47,
+                "column" : 0,
+                "name" : "container_3",
+                "row" : 0,
+                "rowspan" : 10,
+                "widgetStyle" : {
+                  "backgroundColor" : "#FFFFFF",
+                  "borderColor" : "rgb(0, 112, 210)",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 0,
+                  "borderWidth" : 4
+                }
+              },
+              {
+                "colspan" : 45,
+                "column" : 1,
+                "name" : "table_5",
+                "row" : 58,
+                "rowspan" : 21,
+                "widgetStyle" : {
+                  "borderEdges" : [ ]
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "text_36",
+                "row" : 19,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "text_50",
+                "row" : 19,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 9,
+                "column" : 1,
+                "name" : "dateselector_1",
+                "row" : 1,
+                "rowspan" : 7,
+                "widgetStyle" : {
+                  "backgroundColor" : "#091A3E",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 34,
+                "name" : "listselector_7",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 6,
+                "column" : 41,
+                "name" : "listselector_8",
+                "row" : 0,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 45,
+                "column" : 1,
+                "name" : "text_21",
+                "row" : 54,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 1,
+                "name" : "table_6",
+                "row" : 23,
+                "rowspan" : 27,
+                "widgetStyle" : {
+                  "borderEdges" : [ ]
+                }
+              },
+              {
+                "colspan" : 21,
+                "column" : 25,
+                "name" : "table_7",
+                "row" : 23,
+                "rowspan" : 27,
+                "widgetStyle" : {
+                  "borderEdges" : [ ]
+                }
+              },
+              {
+                "colspan" : 45,
+                "column" : 1,
+                "name" : "text_12",
+                "row" : 13,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#335779",
+                  "borderColor" : "#95FFFF",
+                  "borderEdges" : [
+                    "bottom"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              },
+              {
+                "colspan" : 32,
+                "column" : 10,
+                "name" : "navigation_1",
+                "row" : 5,
+                "rowspan" : 4,
+                "widgetStyle" : {
+                  "backgroundColor" : "#FFFFFF",
+                  "borderColor" : "#E6ECF2",
+                  "borderEdges" : [
+                    "all"
+                  ],
+                  "borderRadius" : 4,
+                  "borderWidth" : 2
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight" : "fine",
+        "selectors" : [ ],
+        "style" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "backgroundColor" : "rgb(24, 42, 82)",
+          "cellSpacingX" : 0,
+          "cellSpacingY" : 0,
+          "fit" : "original",
+          "gutterColor" : "#C5D3E0"
+        },
+        "version" : 1.0
+      }
+    ],
+    "layouts" : [ ],
+    "steps" : {
+      "FeedbackType_1" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*"
+              ]
+            ],
+            "groups" : [
+              "FeedbackType"
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : { }
+      },
+      "Clone_of_Table_2" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "label" : "Active_user_Trend",
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*",
+                "A"
+              ],
+              [
+                "count",
+                "*",
+                "B"
+              ],
+              [
+                "count",
+                "*",
+                "C"
+              ],
+              [
+                "count",
+                "*",
+                "D"
+              ],
+              [
+                "count",
+                "*",
+                "Editarecomm"
+              ],
+              [
+                "count",
+                "*",
+                "Postedrecomm"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "UNIQUE_EDIT_CHAT"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "UNIQUE_POST_CHAT"
+              ],
+              [
+                "count",
+                "*",
+                "No_Of_Engagements"
+              ],
+              [
+                "count",
+                "*",
+                "Engaged_Conversations"
+              ],
+              [
+                "count",
+                "*",
+                "Engaged_Conversations_Rate"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "Total_Recommendations"
+              ],
+              [
+                "count",
+                "*",
+                "Noof_agents_with_recomm"
+              ],
+              [
+                "count",
+                "*",
+                "TimesavingsfromPost"
+              ],
+              [
+                "count",
+                "*",
+                "TimesavingsfromEdit"
+              ],
+              [
+                "count",
+                "*",
+                "Perc_Postevents"
+              ],
+              [
+                "count",
+                "*",
+                "Perc_Edit"
+              ],
+              [
+                "count",
+                "*",
+                "Timesavings"
+              ],
+              [
+                "count",
+                "*",
+                "CostSavings"
+              ],
+              [
+                "count",
+                "*",
+                "AgentHourCostDollar"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "Engaged_Conversations_1"
+              ],
+              [
+                "count",
+                "*",
+                "Nothelpfulrecomm"
+              ],
+              [
+                "count",
+                "*",
+                "W"
+              ]
+            ],
+            "columns" : [
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "10.0",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "header" : "AgentHourCost"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "10",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "header" : "EditTimeSaved"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "5",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "header" : "NotHelpfulTimeConsumed"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "20",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "header" : "PostTimeSaved"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Editarecomm",
+                "header" : "Edit a recomm"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Postedrecomm",
+                "header" : "Posted a recomm"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "UNIQUE_EDIT_CHAT",
+                "header" : "UNIQUE_EDIT_CHAT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "UNIQUE_POST_CHAT",
+                "header" : "UNIQUE_POST_CHAT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "'Editarecomm' + 'Postedrecomm'",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "No_Of_Engagements",
+                "header" : "Total count of engagement events"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "UNIQUE_EDIT_CHAT + UNIQUE_POST_CHAT",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Engaged_Conversations",
+                "header" : "Engaged_Conversations"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Engaged_Conversations_1/Total_Recommendations",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Engaged_Conversations_Rate",
+                "header" : "Engaged_Conversations_Rate"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Total_Recommendations",
+                "header" : "Total_Recommendations"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "NOT_HELPFUL",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Noof_agents_with_recomm",
+                "header" : "Number of agents with recomm"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "(('Postedrecomm' * 'D') / 60) / 60",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "TimesavingsfromPost",
+                "header" : "TimesavingsfromPost"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "(('Editarecomm' * 'B') / 60) / 60",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "TimesavingsfromEdit",
+                "header" : "TimesavingsfromEdit"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "'Postedrecomm' / 'No_Of_Engagements'",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Perc_Postevents",
+                "header" : "Perc_Postevents"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "'Editarecomm' / 'No_Of_Engagements'",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Perc_Edit",
+                "header" : "Perc_Edit"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "TimesavingsfromPost+ TimesavingsfromEdit",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "Timesavings"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Timesavings*A",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "CostSavings",
+                "header" : "CostSavings"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "A",
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                },
+                "name" : "AgentHourCostDollar"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Engaged_Conversations_1",
+                "header" : "Engaged_Conversations_1"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "NOT_HELPFUL"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Nothelpfulrecomm",
+                "header" : "Not helpful recomm"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "groups" : [
+                    [
+                      "CreatedDate_Year",
+                      "CreatedDate_Month"
+                    ]
+                  ]
+                }
+              }
+            ],
+            "groups" : [
+              [
+                "CreatedDate_Year",
+                "CreatedDate_Month"
+              ]
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "showValues" : true,
+            "showPoints" : false,
+            "legend" : {
+              "descOrder" : false,
+              "showHeader" : true,
+              "show" : true,
+              "customSize" : "auto",
+              "position" : "bottom-center",
+              "inside" : false
+            },
+            "axisMode" : "sync",
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "time",
+            "missingValue" : "connect",
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "binValues" : false,
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "showZero" : true,
+            "valueType" : "none",
+            "theme" : "wave",
+            "dimensionAxis" : {
+              "showTitle" : true,
+              "customSize" : "auto",
+              "showAxis" : true,
+              "title" : "",
+              "icons" : {
+                "useIcons" : false,
+                "iconProps" : {
+                  "fit" : "cover",
+                  "column" : "",
+                  "type" : "round"
+                }
+              }
+            },
+            "applyConditionalFormatting" : true,
+            "drawArea" : {
+              "measure" : "",
+              "showDrawArea" : false,
+              "bounding1" : "",
+              "bounding2" : ""
+            },
+            "autoFitMode" : "keepLabels",
+            "bins" : {
+              "breakpoints" : {
+                "high" : 100,
+                "low" : 0
+              },
+              "bands" : {
+                "high" : {
+                  "color" : "#008000",
+                  "label" : ""
+                },
+                "low" : {
+                  "color" : "#B22222",
+                  "label" : ""
+                },
+                "medium" : {
+                  "color" : "#ffa500",
+                  "label" : ""
+                }
+              }
+            },
+            "dashLine" : {
+              "measures" : "",
+              "showDashLine" : false
+            },
+            "timeAxis" : {
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "Created Date"
+            },
+            "fillArea" : true,
+            "columnMap" : {
+              "split" : [ ],
+              "timeAxis" : [
+                "CreatedDate_Year~~~CreatedDate_Month"
+              ],
+              "trellis" : [ ],
+              "plots" : [
+                "Noof_agents_with_recomm",
+                "Postedrecomm",
+                "Editarecomm",
+                "Nothelpfulrecomm"
+              ]
+            },
+            "showActionMenu" : true,
+            "measureAxis2" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "measureAxis1" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "Users",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            }
+          },
+          "type" : "chart"
+        }
+      },
+      "Value_1" : {
+        "broadcastFacet" : true,
+        "columns" : {
+          "PostTimeSaved" : {
+            "type" : "number"
+          },
+          "AgentHourCost" : {
+            "type" : "number"
+          },
+          "EditTimeSaved" : {
+            "type" : "number"
+          },
+          "Display" : {
+            "type" : "string"
+          }
+        },
+        "label" : "ValueAssumptions",
+        "selectMode" : "singlerequired",
+        "start" : {
+          "Display" : [
+            "ValueAssumptions"
+          ]
+        },
+        "type" : "staticflex",
+        "values" : [
+          {
+            "Display" : "ValueAssumptions",
+            "AgentHourCost" : 100,
+            "PostTimeSaved" : 120,
+            "EditTimeSaved" : 90
+          }
+        ]
+      },
+      "TimeframeSelector_2" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "TimeframeSelector",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq = group q by 'all';\nq1 = foreach q generate \"Weekly\" as 'Timeframe';\nq2 = foreach q generate \"Monthly\" as 'Timeframe';\nq3 = foreach q generate \"Quarterly\" as 'Timeframe';\nresult = union q1,q2,q3;",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "singlerequired",
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "autoFitMode" : "keepLabels",
+            "showValues" : true,
+            "bins" : {
+              "breakpoints" : {
+                "high" : 100,
+                "low" : 0
+              },
+              "bands" : {
+                "high" : {
+                  "color" : "#008000",
+                  "label" : ""
+                },
+                "low" : {
+                  "color" : "#B22222",
+                  "label" : ""
+                },
+                "medium" : {
+                  "color" : "#ffa500",
+                  "label" : ""
+                }
+              }
+            },
+            "legend" : {
+              "descOrder" : false,
+              "showHeader" : true,
+              "show" : true,
+              "customSize" : "auto",
+              "position" : "right-top",
+              "inside" : false
+            },
+            "axisMode" : "multi",
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "hbar",
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "binValues" : false,
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "showActionMenu" : true,
+            "measureAxis2" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "measureAxis1" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "theme" : "wave",
+            "dimensionAxis" : {
+              "showTitle" : true,
+              "customSize" : "auto",
+              "showAxis" : true,
+              "title" : "",
+              "icons" : {
+                "useIcons" : false,
+                "iconProps" : {
+                  "fit" : "cover",
+                  "column" : "",
+                  "type" : "round"
+                }
+              }
+            },
+            "applyConditionalFormatting" : true
+          },
+          "type" : "chart"
+        }
+      },
+      "all_27" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "label" : "EDIT_PERC",
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*",
+                "A"
+              ],
+              [
+                "count",
+                "*",
+                "Count_EDIT"
+              ],
+              [
+                "count",
+                "*",
+                "PER_EDIT"
+              ]
+            ],
+            "columns" : [
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                }
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Count_EDIT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_EDIT/A"
+                },
+                "name" : "PER_EDIT"
+              }
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "autoFitMode" : "keepLabels",
+            "max" : 1,
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "flatgauge",
+            "medium" : 33,
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "colors" : {
+              "mediumColor2" : "#F29946",
+              "mediumColor1" : "#FED444",
+              "lowColor1" : "#F71979",
+              "lowColor2" : "#CC203D",
+              "highColor1" : "#7BDE4E",
+              "highColor2" : "#169913"
+            },
+            "columnMap" : {
+              "trellis" : [ ],
+              "plots" : [
+                "PER_EDIT"
+              ]
+            },
+            "high" : 66,
+            "showActionMenu" : true,
+            "min" : 0,
+            "valueType" : "percent",
+            "theme" : "wave",
+            "applyConditionalFormatting" : true
+          },
+          "type" : "chart"
+        }
+      },
+      "TimeframeSelector_1" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "TimeframeSelector",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq = group q by 'all';\nq1 = foreach q generate \"Weekly\" as 'Timeframe';\nq2 = foreach q generate \"Monthly\" as 'Timeframe';\nq3 = foreach q generate \"Quarterly\" as 'Timeframe';\nresult = union q1,q2,q3;",
+        "receiveFacetSource" : {
+          "mode" : "include",
+          "steps" : [
+            "Chart4_1",
+            "Chat_1_1"
+          ]
+        },
+        "selectMode" : "singlerequired",
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "autoFitMode" : "keepLabels",
+            "showValues" : true,
+            "bins" : {
+              "breakpoints" : {
+                "high" : 100,
+                "low" : 0
+              },
+              "bands" : {
+                "high" : {
+                  "color" : "#008000",
+                  "label" : ""
+                },
+                "low" : {
+                  "color" : "#B22222",
+                  "label" : ""
+                },
+                "medium" : {
+                  "color" : "#ffa500",
+                  "label" : ""
+                }
+              }
+            },
+            "legend" : {
+              "descOrder" : false,
+              "showHeader" : true,
+              "show" : true,
+              "customSize" : "auto",
+              "position" : "right-top",
+              "inside" : false
+            },
+            "axisMode" : "multi",
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "hbar",
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "binValues" : false,
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "showActionMenu" : true,
+            "measureAxis2" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "measureAxis1" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "theme" : "wave",
+            "dimensionAxis" : {
+              "showTitle" : true,
+              "customSize" : "auto",
+              "showAxis" : true,
+              "title" : "",
+              "icons" : {
+                "useIcons" : false,
+                "iconProps" : {
+                  "fit" : "cover",
+                  "column" : "",
+                  "type" : "round"
+                }
+              }
+            },
+            "applyConditionalFormatting" : true
+          },
+          "type" : "chart"
+        }
+      },
+      "Page3_chart1_1" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "Highest Interactions",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq_A = filter q by 'FeedbackType' in [\"EDIT\", \"POST\"];\nresult = group q_A by ('FeedbackType', 'QT.Message','ResponseId');\nresult = foreach result generate q_A.ResponseId as 'QuickText ID',q_A.'QT.Message' as 'Reply Text', count(q_A) as 'Interactions';\nresult = order result by ('QuickText ID' asc ,'Interactions' desc);",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "borderColor" : "#e0e5ee",
+            "borderWidth" : 1,
+            "cell" : {
+              "backgroundColor" : "#ffffff",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "columnProperties" : {
+              "QuickText ID" : {
+                "parameters" : {
+                  "alignment" : "left",
+                  "width" : 184
+                },
+                "type" : "text"
+              },
+              "Interactions" : {
+                "parameters" : {
+                  "alignment" : "right",
+                  "width" : 115
+                },
+                "type" : "text"
+              },
+              "Reply Text" : {
+                "parameters" : {
+                  "alignment" : "left",
+                  "width" : 254
+                },
+                "type" : "text"
+              }
+            },
+            "columns" : [ ],
+            "customBulkActions" : [ ],
+            "header" : {
+              "backgroundColor" : "#f4f6f9",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "innerMajorBorderColor" : "#a8b7c7",
+            "innerMinorBorderColor" : "#e0e5ee",
+            "maxColumnWidth" : 300,
+            "minColumnWidth" : 40,
+            "mode" : "variable",
+            "numberOfLines" : 1,
+            "pivoted" : false,
+            "showActionMenu" : true,
+            "showRowIndexColumn" : false,
+            "totals" : true,
+            "verticalPadding" : 8
+          },
+          "type" : "table"
+        }
+      },
+      "all_28" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "label" : "POST_PERC",
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*",
+                "A"
+              ],
+              [
+                "count",
+                "*",
+                "Count_of_POST"
+              ],
+              [
+                "count",
+                "*",
+                "PER_POST"
+              ]
+            ],
+            "columns" : [
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                }
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Count_of_POST"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "(Count_of_POST/A)"
+                },
+                "name" : "PER_POST"
+              }
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "autoFitMode" : "keepLabels",
+            "max" : 1,
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "flatgauge",
+            "medium" : 33,
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "colors" : {
+              "mediumColor2" : "#F29946",
+              "mediumColor1" : "#FED444",
+              "lowColor1" : "#F71979",
+              "lowColor2" : "#CC203D",
+              "highColor1" : "#7BDE4E",
+              "highColor2" : "#169913"
+            },
+            "columnMap" : {
+              "trellis" : [ ],
+              "plots" : [
+                "PER_POST"
+              ]
+            },
+            "high" : 66,
+            "showActionMenu" : true,
+            "min" : 0,
+            "valueType" : "percent",
+            "theme" : "wave",
+            "applyConditionalFormatting" : true
+          },
+          "type" : "chart"
+        }
+      },
+      "Chart4_1" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "Chart2",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq_A = filter q by 'FeedbackType' in [\"EDIT\", \"POST\"];\nq_B = filter q by 'FeedbackType' in [\"NOT_HELPFUL\", \"PREDICTED\"];\n\n-- ## Weekly ## --\nq_weekly = group q_A by ('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Week_First_Date_Day') full, q_B by ('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Week_First_Date_Day');\nq_weekly = foreach q_weekly generate coalesce(q_A.'CreatedDate_Year' + \"~~~\" + q_A.'CreatedDate_Month' + \"~~~\" + q_A.'CreatedDate_Week_First_Date_Day', q_B.'CreatedDate_Year' + \"~~~\" + q_B.'CreatedDate_Month' + \"~~~\" + q_B.'CreatedDate_Week_First_Date_Day') as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day', avg(q_A.'ActiveTime')/60 as 'With Interactions', avg(q_B.'ActiveTime')/60 as 'Without Interactions'\n,\"Weekly\" as 'Timeframe';\nq_weekly = order q_weekly by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n\n-- ## Monthly ## --\nq_Monthly = group q_A by ('CreatedDate_Year', 'CreatedDate_Month') full, q_B by ('CreatedDate_Year', 'CreatedDate_Month');\nq_Monthly = foreach q_Monthly generate coalesce(q_A.'CreatedDate_Year' + \"~~~\" + q_A.'CreatedDate_Month' + \"~~~01\" , q_B.'CreatedDate_Year' + \"~~~\" + q_B.'CreatedDate_Month' + \"~~~01\" ) as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day', avg(q_A.'ActiveTime')/60 as 'With Interactions', avg(q_B.'ActiveTime')/60 as 'Without Interactions'\n,\"Monthly\" as 'Timeframe';\nq_Monthly = order q_Monthly by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n\n\n-- ## Quarterly ## --\n\nq_Quarterly = group q_A by ('CreatedDate_Year', 'CreatedDate_Quarter_First_Date_Month', 'CreatedDate_Quarter') full, q_B by ('CreatedDate_Year','CreatedDate_Quarter_First_Date_Month','CreatedDate_Quarter');\nq_Quarterly = foreach q_Quarterly generate coalesce(q_A.'CreatedDate_Year' + \"~~~\" + q_A.'CreatedDate_Quarter_First_Date_Month' + \"~~~01\" , q_B.'CreatedDate_Year' + \"~~~\" + q_B.'CreatedDate_Quarter_First_Date_Month' + \"~~~01\" ) as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day', avg(q_A.'ActiveTime')/60 as 'With Interactions', avg(q_B.'ActiveTime')/60 as 'Without Interactions'\n,\"Quarterly\" as 'Timeframe';\nq_Quarterly = order q_Quarterly by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n\nresult = union q_weekly, q_Monthly,q_Quarterly;\n\nresult = filter result by {{column(TimeframeSelector_2.selection, [\"Timeframe\"]).asEquality(\"Timeframe\")}};",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "autoFitMode" : "keepLabels",
+            "showPoints" : false,
+            "legend" : {
+              "descOrder" : false,
+              "showHeader" : false,
+              "show" : true,
+              "customSize" : 10,
+              "position" : "bottom-center",
+              "inside" : false
+            },
+            "axisMode" : "sync",
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "time",
+            "missingValue" : "connect",
+            "dashLine" : {
+              "measures" : "",
+              "showDashLine" : false
+            },
+            "timeAxis" : {
+              "showTitle" : false,
+              "showAxis" : true,
+              "title" : ""
+            },
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "fillArea" : true,
+            "columnMap" : {
+              "split" : [ ],
+              "timeAxis" : [
+                "CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day"
+              ],
+              "trellis" : [ ],
+              "plots" : [
+                "With Interactions",
+                "Without Interactions"
+              ]
+            },
+            "showActionMenu" : true,
+            "showZero" : true,
+            "measureAxis2" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "measureAxis1" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "Minutes",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "valueType" : "none",
+            "theme" : "wave",
+            "applyConditionalFormatting" : true,
+            "drawArea" : {
+              "measure" : "",
+              "showDrawArea" : false,
+              "bounding1" : "",
+              "bounding2" : ""
+            }
+          },
+          "type" : "chart"
+        }
+      },
+      "all_30" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "label" : "BusinessValueQuery",
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*",
+                "A"
+              ],
+              [
+                "count",
+                "*",
+                "B"
+              ],
+              [
+                "count",
+                "*",
+                "C"
+              ],
+              [
+                "count",
+                "*",
+                "D"
+              ],
+              [
+                "count",
+                "*",
+                "Count_EDIT"
+              ],
+              [
+                "count",
+                "*",
+                "Count_POST"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "UNIQUE_EDIT_CHAT"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "UNIQUE_POST_CHAT"
+              ],
+              [
+                "count",
+                "*",
+                "No_Of_Engagements"
+              ],
+              [
+                "count",
+                "*",
+                "Engaged_Conversations"
+              ],
+              [
+                "count",
+                "*",
+                "Engaged_Conversations_Rate"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "Total_Recommendations"
+              ],
+              [
+                "count",
+                "*",
+                "Total_PEN"
+              ],
+              [
+                "count",
+                "*",
+                "TimesavingsfromPost"
+              ],
+              [
+                "count",
+                "*",
+                "TimesavingsfromEdit"
+              ],
+              [
+                "count",
+                "*",
+                "Perc_Postevents"
+              ],
+              [
+                "count",
+                "*",
+                "Perc_Edit"
+              ],
+              [
+                "count",
+                "*",
+                "Timesavings"
+              ],
+              [
+                "count",
+                "*",
+                "CostSavings"
+              ],
+              [
+                "count",
+                "*",
+                "AgentHourCostDollar"
+              ],
+              [
+                "unique",
+                "ConversationId",
+                "Engaged_Conversations_1"
+              ],
+              [
+                "count",
+                "*",
+                "Count_NH"
+              ],
+              [
+                "avg",
+                "ActiveTime",
+                "AHD_Engagedconversation"
+              ],
+              [
+                "avg",
+                "ActiveTime",
+                "AHD_NONEngagedconversation"
+              ],
+              [
+                "count",
+                "*",
+                "PERC_EDIT_PEN"
+              ],
+              [
+                "count",
+                "*",
+                "PERC_NH_PEN"
+              ],
+              [
+                "count",
+                "*",
+                "PERC_POST_PEN"
+              ],
+              [
+                "count",
+                "*",
+                "AB"
+              ],
+              [
+                "count",
+                "*",
+                "AHD_Engagedconversation_min"
+              ],
+              [
+                "count",
+                "*",
+                "AHD_NONEngagedconversation_min"
+              ]
+            ],
+            "columns" : [
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "{{cell(Value_1.selection, 0, \"AgentHourCost\").asString()}}"
+                },
+                "header" : "AgentHourCost"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "{{cell(Value_1.selection, 0, \"EditTimeSaved\").asString()}}"
+                },
+                "header" : "EditTimeSaved"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "5"
+                },
+                "header" : "NotHelpfulTimeConsumed"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "{{cell(Value_1.selection, 0, \"PostTimeSaved\").asString()}}"
+                },
+                "header" : "PostTimeSaved"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Count_EDIT",
+                "header" : "Count_EDIT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Count_POST",
+                "header" : "Count_POST"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "UNIQUE_EDIT_CHAT",
+                "header" : "UNIQUE_EDIT_CHAT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "UNIQUE_POST_CHAT",
+                "header" : "UNIQUE_POST_CHAT"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_EDIT + Count_POST"
+                },
+                "name" : "No_Of_Engagements",
+                "header" : "Total count of engagement events"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "UNIQUE_EDIT_CHAT + UNIQUE_POST_CHAT"
+                },
+                "name" : "Engaged_Conversations",
+                "header" : "Engaged_Conversations"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Engaged_Conversations_1/Total_Recommendations"
+                },
+                "name" : "Engaged_Conversations_Rate",
+                "header" : "Engaged_Conversations_Rate"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ]
+                },
+                "name" : "Total_Recommendations",
+                "header" : "Total_Recommendations"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "NOT_HELPFUL",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Total_PEN",
+                "header" : "Total_PEN"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "(Count_POST * D) /60/60"
+                },
+                "name" : "TimesavingsfromPost",
+                "header" : "TimesavingsfromPost"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "(Count_EDIT*B)/60/60"
+                },
+                "name" : "TimesavingsfromEdit",
+                "header" : "TimesavingsfromEdit"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_POST/No_Of_Engagements"
+                },
+                "name" : "Perc_Postevents",
+                "header" : "Perc_Postevents"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_EDIT/No_Of_Engagements"
+                },
+                "name" : "Perc_Edit",
+                "header" : "Perc_Edit"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "TimesavingsfromPost+ TimesavingsfromEdit"
+                },
+                "name" : "Timesavings"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Timesavings*A"
+                },
+                "name" : "CostSavings",
+                "header" : "CostSavings"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "A"
+                },
+                "name" : "AgentHourCostDollar"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "unique",
+                      "ConversationId"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Engaged_Conversations_1",
+                "header" : "Engaged_Conversations_1"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "NOT_HELPFUL"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "Count_NH",
+                "header" : "Count_NH"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "avg",
+                      "ActiveTime"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "AHD_Engagedconversation",
+                "header" : "AHD_Engagedconversation"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "avg",
+                      "ActiveTime"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "NOT_HELPFUL",
+                        "PREDICTED"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "name" : "AHD_NONEngagedconversation",
+                "header" : "AHD_NONEngagedconversation"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_EDIT/Total_PEN"
+                },
+                "name" : "PERC_EDIT_PEN",
+                "header" : "PERC_EDIT_PEN"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_NH/Total_PEN"
+                },
+                "name" : "PERC_NH_PEN",
+                "header" : "PERC_NH_PEN"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "Count_POST/Total_PEN"
+                },
+                "name" : "PERC_POST_PEN",
+                "header" : "PERC_POST_PEN"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ]
+                }
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "AHD_Engagedconversation/60"
+                },
+                "name" : "AHD_Engagedconversation_min",
+                "header" : "AHD_Engagedconversation_min"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "formula" : "AHD_NONEngagedconversation/60"
+                },
+                "name" : "AHD_NONEngagedconversation_min",
+                "header" : "AHD_NONEngagedconversation_min"
+              }
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "options" : { },
+          "parameters" : {
+            "borderColor" : "#e0e5ee",
+            "borderWidth" : 1,
+            "cell" : {
+              "backgroundColor" : "#ffffff",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "columnProperties" : { },
+            "columns" : [
+              "No_Of_Engagements",
+              "UNIQUE_POST_CHAT",
+              "TimesavingsfromPost",
+              "TimesavingsfromEdit",
+              "Perc_Postevents",
+              "Perc_Edit",
+              "Timesavings",
+              "CostSavings",
+              "AgentHourCostDollar",
+              "UNIQUE_EDIT_CHAT",
+              "Total_PEN",
+              "Count_POST",
+              "Count_EDIT",
+              "Count_NH",
+              "D",
+              "C",
+              "B",
+              "A",
+              "Engaged_Conversations_Rate",
+              "Engaged_Conversations_1",
+              "Engaged_Conversations",
+              "Total_Recommendations",
+              "AHD_Engagedconversation",
+              "AHD_NONEngagedconversation",
+              "PERC_EDIT_PEN",
+              "PERC_NH_PEN",
+              "PERC_POST_PEN",
+              "AB",
+              "AHD_Engagedconversation_min",
+              "AHD_NONEngagedconversation_min"
+            ],
+            "customBulkActions" : [ ],
+            "header" : {
+              "backgroundColor" : "#f4f6f9",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "innerMajorBorderColor" : "#a8b7c7",
+            "innerMinorBorderColor" : "#e0e5ee",
+            "maxColumnWidth" : 300,
+            "minColumnWidth" : 40,
+            "mode" : "variable",
+            "numberOfLines" : 1,
+            "pivoted" : false,
+            "showActionMenu" : true,
+            "showRowIndexColumn" : false,
+            "totals" : true,
+            "verticalPadding" : 8
+          },
+          "type" : "table"
+        }
+      },
+      "UtteranceSpeakerType_1" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*"
+              ]
+            ],
+            "groups" : [
+              "UtteranceSpeakerType"
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : { }
+      },
+      "Chat_1_1" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "Chat_1",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq_fil = filter q by 'FeedbackType' in [\"EDIT\", \"POST\"];\n\n-- ## Weekly ## --\nq_weekly = group q by ('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Week_First_Date_Day')full,  q_fil by ('CreatedDate_Year', 'CreatedDate_Month', 'CreatedDate_Week_First_Date_Day');\nq_weekly = foreach q_weekly generate \n\ncoalesce((q.'CreatedDate_Year' + \"~~~\" + q.'CreatedDate_Month' + \"~~~\" + q.'CreatedDate_Week_First_Date_Day') , q_fil.'CreatedDate_Year' + \"~~~\" + q_fil.'CreatedDate_Month' + \"~~~\" + q_fil.'CreatedDate_Week_First_Date_Day') \n\nas 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\n, unique(q.'ConversationId') as 'Conv with Recommendations',  unique(q_fil.'ConversationId') as 'Conv with Interactions',\n\"Weekly\" as 'Timeframe';\nq_weekly = order q_weekly by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n\n-- ## Monthly ## --\nq_Monthly = group q by ('CreatedDate_Year', 'CreatedDate_Month' )full,  q_fil by ('CreatedDate_Year', 'CreatedDate_Month');\nq_Monthly = foreach q_Monthly generate coalesce((q.'CreatedDate_Year' + \"~~~\" + q.'CreatedDate_Month'  + \"~~~01\" ) , q_fil.'CreatedDate_Year' + \"~~~\" + q_fil.'CreatedDate_Month'  + \"~~~01\" ) as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\n, unique(q.'ConversationId') as 'Conv with Recommendations',  unique(q_fil.'ConversationId') as 'Conv with Interactions',\n\"Monthly\" as 'Timeframe';\nq_Monthly = order q_Monthly by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n\n-- ## Quarterly ## --\nq_quar = group q by ('CreatedDate_Year','CreatedDate_Quarter_First_Date_Month', 'CreatedDate_Quarter')full,  q_fil by ('CreatedDate_Year', 'CreatedDate_Quarter_First_Date_Month','CreatedDate_Quarter') ;\nq_quar = foreach q_quar generate coalesce((q.'CreatedDate_Year' + \"~~~\" + q.'CreatedDate_Quarter_First_Date_Month' + \"~~~01\" ) , q_fil.'CreatedDate_Year' + \"~~~\" +q.'CreatedDate_Quarter_First_Date_Month' + \"~~~01\"   ) as 'CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day'\n, unique(q.'ConversationId') as 'Conv with Recommendations',  unique(q_fil.'ConversationId') as 'Conv with Interactions',\n\"Quarterly\" as 'Timeframe';\nq_quar = order q_quar by ('CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day' asc);\n--result = limit result 2000;\n\nresult = union q_weekly, q_Monthly,q_quar;\n\nresult = filter result by {{column(TimeframeSelector_1.selection, [\"Timeframe\"]).asEquality(\"Timeframe\")}};",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "showValues" : true,
+            "showPoints" : false,
+            "legend" : {
+              "descOrder" : false,
+              "showHeader" : false,
+              "show" : true,
+              "customSize" : 10,
+              "position" : "bottom-center",
+              "inside" : false
+            },
+            "axisMode" : "sync",
+            "tooltip" : {
+              "content" : {
+                "legend" : {
+                  "showBinLabel" : true,
+                  "measures" : [ ],
+                  "showNullValues" : true,
+                  "customizeLegend" : false,
+                  "showPercentage" : true,
+                  "showDimensions" : true,
+                  "showMeasures" : true,
+                  "dimensions" : [ ]
+                }
+              }
+            },
+            "visualizationType" : "time",
+            "missingValue" : "connect",
+            "title" : {
+              "fontSize" : 14,
+              "subtitleFontSize" : 11,
+              "label" : "",
+              "align" : "center",
+              "subtitleLabel" : ""
+            },
+            "binValues" : false,
+            "trellis" : {
+              "flipLabels" : false,
+              "showGridLines" : true,
+              "size" : [
+                100,
+                100
+              ],
+              "enable" : false,
+              "type" : "x",
+              "chartsPerLine" : 4
+            },
+            "showZero" : true,
+            "valueType" : "none",
+            "theme" : "wave",
+            "dimensionAxis" : {
+              "showTitle" : true,
+              "customSize" : "auto",
+              "showAxis" : true,
+              "title" : "",
+              "icons" : {
+                "useIcons" : false,
+                "iconProps" : {
+                  "fit" : "cover",
+                  "column" : "",
+                  "type" : "round"
+                }
+              }
+            },
+            "applyConditionalFormatting" : true,
+            "drawArea" : {
+              "measure" : "",
+              "showDrawArea" : false,
+              "bounding1" : "",
+              "bounding2" : ""
+            },
+            "autoFitMode" : "keepLabels",
+            "bins" : {
+              "breakpoints" : {
+                "high" : 100,
+                "low" : 0
+              },
+              "bands" : {
+                "high" : {
+                  "color" : "#008000",
+                  "label" : ""
+                },
+                "low" : {
+                  "color" : "#B22222",
+                  "label" : ""
+                },
+                "medium" : {
+                  "color" : "#ffa500",
+                  "label" : ""
+                }
+              }
+            },
+            "dashLine" : {
+              "measures" : "",
+              "showDashLine" : false
+            },
+            "timeAxis" : {
+              "showTitle" : false,
+              "showAxis" : true,
+              "title" : ""
+            },
+            "columnProperties" : { },
+            "fillArea" : true,
+            "showActionMenu" : true,
+            "measureAxis2" : {
+              "sqrtScale" : false,
+              "showTitle" : true,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            },
+            "measureAxis1" : {
+              "sqrtScale" : false,
+              "showTitle" : false,
+              "showAxis" : true,
+              "title" : "",
+              "customDomain" : {
+                "showDomain" : false
+              }
+            }
+          },
+          "type" : "chart"
+        }
+      },
+      "all_10" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "Quick_text_table",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq_A = filter q by 'FeedbackType' == \"EDIT\";\nq_B = filter q by 'FeedbackType' == \"POST\";\nq_C = filter q by 'FeedbackType' == \"NOT_HELPFUL\";\nresult = group q by ('ResponseId', 'QT.Message') full, q_A by ('ResponseId', 'QT.Message') full, q_B by ('ResponseId', 'QT.Message') full, q_C by ('ResponseId', 'QT.Message');\nresult = foreach result generate coalesce(q_A.'ResponseId', q_B.'ResponseId', q_C.'ResponseId', q.'ResponseId') as 'ResponseId', coalesce(q_A.'QT.Message', q_B.'QT.Message', q_C.'QT.Message', q.'QT.Message') as 'QT.Message', count(q_A) as 'EditCount', count(q_B) as 'PostCount', count(q_C) as 'NotHelpfulcount', count(q) as 'RecommendedCount', unique(q.'ConversationId') as 'UniqueChats';\nresult = foreach result generate 'ResponseId' as 'QuickText ID', 'QT.Message' as 'Reply Text', 'EditCount' as  'Edit', 'PostCount' as  'Post', 'NotHelpfulcount' as 'Not Helpful', 'RecommendedCount' as 'Recommended', 'UniqueChats' as 'Chats', (EditCount + PostCount) / RecommendedCount as 'Interaction Rate';\nresult = order result by ('QuickText ID' asc, 'Reply Text' asc);\nresult = limit result 2000;",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "borderColor" : "#a8b7c7",
+            "borderWidth" : 1,
+            "cell" : {
+              "backgroundColor" : "#ffffff",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "columnProperties" : { },
+            "columns" : [ ],
+            "customBulkActions" : [ ],
+            "header" : {
+              "backgroundColor" : "#16325c",
+              "fontColor" : "#ffffff",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "innerMajorBorderColor" : "#54698d",
+            "innerMinorBorderColor" : "#a8b7c7",
+            "mode" : "fittocontainer",
+            "numberOfLines" : 1,
+            "pivoted" : false,
+            "showActionMenu" : true,
+            "showRowIndexColumn" : false,
+            "totals" : true,
+            "verticalPadding" : 8
+          },
+          "type" : "table"
+        }
+      },
+      "Clone_of_Page3_chart_1" : {
+        "broadcastFacet" : true,
+        "groups" : [ ],
+        "label" : "Recommendations Marked Not Helpful",
+        "numbers" : [ ],
+        "query" : "q = load \"${App.Datasets.ERR_Dataset_tp.FullyQualifiedName}\";\nq_A = filter q by 'FeedbackType' in [\"NOT_HELPFUL\"];\nresult = group q_A by ('QT.Message','ResponseId');\nresult = foreach result generate q_A.ResponseId as 'QuickText ID',q_A.'QT.Message' as 'Reply Text', count(q_A) as 'Not Helpful';\nresult = order result by ('QuickText ID'asc );",
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "strings" : [ ],
+        "type" : "saql",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "parameters" : {
+            "borderColor" : "#a8b7c7",
+            "borderWidth" : 1,
+            "cell" : {
+              "backgroundColor" : "#ffffff",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "columnProperties" : {
+              "Not Helpful" : {
+                "parameters" : {
+                  "alignment" : "right",
+                  "width" : 88
+                },
+                "type" : "text"
+              },
+              "Reply Text" : {
+                "parameters" : {
+                  "alignment" : "left",
+                  "width" : 236
+                },
+                "type" : "text"
+              }
+            },
+            "columns" : [ ],
+            "customBulkActions" : [ ],
+            "header" : {
+              "backgroundColor" : "#16325c",
+              "fontColor" : "#ffffff",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "innerMajorBorderColor" : "#54698d",
+            "innerMinorBorderColor" : "#a8b7c7",
+            "maxColumnWidth" : 300,
+            "minColumnWidth" : 40,
+            "mode" : "variable",
+            "numberOfLines" : 1,
+            "pivoted" : false,
+            "showActionMenu" : true,
+            "showRowIndexColumn" : false,
+            "totals" : true,
+            "verticalPadding" : 8
+          },
+          "type" : "table"
+        }
+      },
+      "all_1" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "label" : "all_1",
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*",
+                "A"
+              ],
+              [
+                "count",
+                "*",
+                "B"
+              ],
+              [
+                "count",
+                "*",
+                "C"
+              ],
+              [
+                "count",
+                "*",
+                "D"
+              ]
+            ],
+            "columns" : [
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "header" : "A"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "header" : "B"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "NOT_HELPFUL"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "header" : "C"
+              },
+              {
+                "query" : {
+                  "measures" : [
+                    [
+                      "count",
+                      "*"
+                    ]
+                  ],
+                  "filters" : [
+                    [
+                      "FeedbackType",
+                      [
+                        "EDIT",
+                        "NOT_HELPFUL",
+                        "POST"
+                      ],
+                      "in"
+                    ]
+                  ]
+                },
+                "header" : "D"
+              }
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : {
+          "options" : { },
+          "parameters" : {
+            "borderColor" : "#e0e5ee",
+            "borderWidth" : 1,
+            "cell" : {
+              "backgroundColor" : "#ffffff",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "columnProperties" : { },
+            "columns" : [ ],
+            "customBulkActions" : [ ],
+            "header" : {
+              "backgroundColor" : "#f4f6f9",
+              "fontColor" : "#16325c",
+              "fontSize" : 12,
+              "textWrap" : true
+            },
+            "innerMajorBorderColor" : "#a8b7c7",
+            "innerMinorBorderColor" : "#e0e5ee",
+            "maxColumnWidth" : 300,
+            "minColumnWidth" : 40,
+            "mode" : "variable",
+            "numberOfLines" : 1,
+            "showActionMenu" : true,
+            "showRowIndexColumn" : false,
+            "totals" : true,
+            "verticalPadding" : 8
+          },
+          "type" : "table"
+        }
+      },
+      "CreatedDate_1" : {
+        "broadcastFacet" : true,
+        "datasets" : [
+          {
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}"
+          }
+        ],
+        "isGlobal" : false,
+        "query" : {
+          "query" : {
+            "measures" : [
+              [
+                "count",
+                "*"
+              ]
+            ],
+            "groups" : [
+              "CreatedDate"
+            ]
+          },
+          "version" : -1.0
+        },
+        "receiveFacetSource" : {
+          "mode" : "all",
+          "steps" : [ ]
+        },
+        "selectMode" : "single",
+        "start" : [ ],
+        "type" : "aggregateflex",
+        "useGlobal" : true,
+        "visualizationParameters" : { }
+      }
+    },
+    "widgetStyle" : {
+      "backgroundColor" : "#FFFFFF",
+      "borderColor" : "#E6ECF2",
+      "borderEdges" : [ ],
+      "borderRadius" : 0,
+      "borderWidth" : 1
+    },
+    "widgets" : {
+      "number_12" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "TimesavingsfromPost",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 32,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#091A3E",
+          "titleSize" : 18,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "text_18" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "12px"
+                },
+                "insert" : "Total with Recommendations"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_17" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "14px"
+                },
+                "insert" : "Chats with Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_19" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#d1d2d3",
+                  "size" : "12px"
+                },
+                "insert" : "To change your assumptions, click Edit. In the search bar, enter ValueAssumptions and click Edit."
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_14" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Interaction Trends"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_13" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#3ae867",
+                  "size" : "14px"
+                },
+                "insert" : "USD"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_16" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "14px"
+                },
+                "insert" : "Rate of Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "number_18" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "AHD_NONEngagedconversation_min",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 32,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "text_15" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Average Handle Time"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_10" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#7d98b3"
+                },
+                "insert" : "Post time saved: [AgentHourCost] sec"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "AgentHourCost" : {
+                "field" : "PostTimeSaved",
+                "sourceType" : "selection",
+                "step" : "Value_1"
+              }
+            }
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "number_16" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Timesavings",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 48,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#091A3E",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_14" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "TimesavingsfromEdit",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 32,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "text_12" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Reply Interaction"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_11" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#7d98b3"
+                },
+                "insert" : "Edit time saved: [AgentHourCost] sec"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "AgentHourCost" : {
+                "field" : "EditTimeSaved",
+                "sourceType" : "selection",
+                "step" : "Value_1"
+              }
+            }
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_50" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Marked Not Helpful"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "container_1" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "container_2" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "container_3" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "container_5" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "text_3" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#95ffb0",
+                  "size" : "16px"
+                },
+                "insert" : "Hours"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_2" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#95ffb0",
+                  "size" : "16px"
+                },
+                "insert" : "Hours"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "container_7" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "chart_5" : {
+        "parameters" : {
+          "showValues" : true,
+          "showPoints" : false,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : false,
+            "show" : true,
+            "customSize" : 10,
+            "position" : "bottom-center",
+            "inside" : false
+          },
+          "axisMode" : "sync",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "time",
+          "missingValue" : "connect",
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "",
+            "align" : "center",
+            "subtitleLabel" : ""
+          },
+          "binValues" : false,
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "showZero" : true,
+          "valueType" : "none",
+          "theme" : "dark",
+          "dimensionAxis" : {
+            "showTitle" : true,
+            "customSize" : "auto",
+            "showAxis" : true,
+            "title" : "",
+            "icons" : {
+              "useIcons" : false,
+              "iconProps" : {
+                "fit" : "cover",
+                "column" : "",
+                "type" : "round"
+              }
+            }
+          },
+          "applyConditionalFormatting" : true,
+          "drawArea" : {
+            "measure" : "",
+            "showDrawArea" : false,
+            "bounding1" : "",
+            "bounding2" : ""
+          },
+          "autoFitMode" : "keepLabels",
+          "bins" : {
+            "breakpoints" : {
+              "high" : 100,
+              "low" : 0
+            },
+            "bands" : {
+              "high" : {
+                "color" : "#008000",
+                "label" : ""
+              },
+              "low" : {
+                "color" : "#B22222",
+                "label" : ""
+              },
+              "medium" : {
+                "color" : "#ffa500",
+                "label" : ""
+              }
+            }
+          },
+          "dashLine" : {
+            "measures" : "",
+            "showDashLine" : false
+          },
+          "timeAxis" : {
+            "showTitle" : false,
+            "showAxis" : true,
+            "title" : ""
+          },
+          "columnProperties" : { },
+          "fillArea" : true,
+          "showActionMenu" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : false,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "step" : "Chat_1_1"
+        },
+        "type" : "chart"
+      },
+      "text_5" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "12px"
+                },
+                "insert" : "Total Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "container_8" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "container_9" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "text_4" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#95ffb0",
+                  "size" : "16px"
+                },
+                "insert" : "Hours"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "chart_7" : {
+        "parameters" : {
+          "autoFitMode" : "keepLabels",
+          "showPoints" : false,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : false,
+            "show" : true,
+            "customSize" : 10,
+            "position" : "bottom-center",
+            "inside" : false
+          },
+          "axisMode" : "sync",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "time",
+          "missingValue" : "connect",
+          "dashLine" : {
+            "measures" : "",
+            "showDashLine" : false
+          },
+          "timeAxis" : {
+            "showTitle" : false,
+            "showAxis" : true,
+            "title" : ""
+          },
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "",
+            "align" : "center",
+            "subtitleLabel" : ""
+          },
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "fillArea" : true,
+          "columnMap" : {
+            "split" : [ ],
+            "timeAxis" : [
+              "CreatedDate_Year~~~CreatedDate_Month~~~CreatedDate_Day"
+            ],
+            "trellis" : [ ],
+            "plots" : [
+              "With Interactions",
+              "Without Interactions"
+            ]
+          },
+          "showActionMenu" : true,
+          "showZero" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "Minutes",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "valueType" : "none",
+          "theme" : "dark",
+          "step" : "Chart4_1",
+          "applyConditionalFormatting" : true,
+          "drawArea" : {
+            "measure" : "",
+            "showDrawArea" : false,
+            "bounding1" : "",
+            "bounding2" : ""
+          }
+        },
+        "type" : "chart"
+      },
+      "text_7" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "18px",
+                  "bold" : true
+                },
+                "insert" : "Posts"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "chart_2" : {
+        "parameters" : {
+          "autoFitMode" : "keepLabels",
+          "max" : 1,
+          "legend" : {
+            "showHeader" : true,
+            "show" : false,
+            "position" : "right-top",
+            "inside" : false
+          },
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "flatgauge",
+          "medium" : 33,
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "",
+            "align" : "center",
+            "subtitleLabel" : ""
+          },
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "colors" : {
+            "mediumColor2" : "#F29946",
+            "mediumColor1" : "#FED444",
+            "lowColor1" : "#F71979",
+            "lowColor2" : "#CC203D",
+            "highColor1" : "#7BDE4E",
+            "highColor2" : "#169913"
+          },
+          "columnMap" : {
+            "trellis" : [ ],
+            "plots" : [
+              "PER_EDIT"
+            ]
+          },
+          "high" : 66,
+          "showActionMenu" : true,
+          "min" : 0,
+          "valueType" : "percent",
+          "theme" : "dark",
+          "step" : "all_27",
+          "applyConditionalFormatting" : true
+        },
+        "type" : "chart"
+      },
+      "text_6" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "18px",
+                  "bold" : true
+                },
+                "insert" : "Edits"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "chart_1" : {
+        "parameters" : {
+          "autoFitMode" : "keepLabels",
+          "max" : 1,
+          "legend" : {
+            "showHeader" : true,
+            "show" : false,
+            "position" : "right-top",
+            "inside" : false
+          },
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "flatgauge",
+          "exploreLink" : true,
+          "medium" : 33,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "",
+            "align" : "center",
+            "subtitleLabel" : ""
+          },
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "colors" : {
+            "mediumColor2" : "#F29946",
+            "mediumColor1" : "#FED444",
+            "lowColor1" : "#F71979",
+            "lowColor2" : "#CC203D",
+            "highColor1" : "#7BDE4E",
+            "highColor2" : "#169913"
+          },
+          "columnMap" : {
+            "trellis" : [ ],
+            "plots" : [
+              "PER_POST"
+            ]
+          },
+          "high" : 66,
+          "showActionMenu" : true,
+          "min" : 0,
+          "valueType" : "percent",
+          "theme" : "dark",
+          "step" : "all_28",
+          "applyConditionalFormatting" : true
+        },
+        "type" : "chart"
+      },
+      "text_9" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#7d98b3"
+                },
+                "insert" : "Agent hourly cost: [AgentHourCost] USD"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "AgentHourCost" : {
+                "field" : "AgentHourCost",
+                "sourceType" : "selection",
+                "step" : "Value_1"
+              }
+            }
+          },
+          "showActionMenu" : true,
+          "tooltip" : ""
+        },
+        "type" : "text"
+      },
+      "text_8" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Estimated Cost Savings"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "number_22" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Total_Recommendations",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 48,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#091A3E",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "dateselector_1" : {
+        "parameters" : {
+          "absoluteModeEnabled" : true,
+          "calendarTypeSwitchingAllowed" : true,
+          "defaultFiscalMode" : false,
+          "displayMode" : "filter",
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : false,
+          "presetsEnabled" : true,
+          "relativeModeEnabled" : true,
+          "showActionMenu" : true,
+          "step" : "CreatedDate_1",
+          "title" : "Date Range"
+        },
+        "type" : "dateselector"
+      },
+      "text_1" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Estimated Time Saved"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "number_5" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Engaged_Conversations_1",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 48,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_4" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "No_Of_Engagements",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 48,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 18,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_2" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Total_PEN",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 48,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_1" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "CostSavings",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 64,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "container_11" : {
+        "parameters" : {
+          "alignmentX" : "left",
+          "alignmentY" : "top",
+          "fit" : "original"
+        },
+        "type" : "container"
+      },
+      "listselector_10" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "UtteranceSpeakerType_1",
+          "title" : "UtteranceSpeakerType"
+        },
+        "type" : "listselector"
+      },
+      "chart_12" : {
+        "parameters" : {
+          "showValues" : true,
+          "showPoints" : false,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : true,
+            "show" : true,
+            "customSize" : "auto",
+            "position" : "bottom-center",
+            "inside" : false
+          },
+          "axisMode" : "sync",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "time",
+          "missingValue" : "connect",
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "",
+            "align" : "center",
+            "subtitleLabel" : ""
+          },
+          "binValues" : false,
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "showZero" : true,
+          "valueType" : "none",
+          "theme" : "dark",
+          "dimensionAxis" : {
+            "showTitle" : true,
+            "customSize" : "auto",
+            "showAxis" : true,
+            "title" : "",
+            "icons" : {
+              "useIcons" : false,
+              "iconProps" : {
+                "fit" : "cover",
+                "column" : "",
+                "type" : "round"
+              }
+            }
+          },
+          "applyConditionalFormatting" : true,
+          "drawArea" : {
+            "measure" : "",
+            "showDrawArea" : false,
+            "bounding1" : "",
+            "bounding2" : ""
+          },
+          "autoFitMode" : "keepLabels",
+          "bins" : {
+            "breakpoints" : {
+              "high" : 100,
+              "low" : 0
+            },
+            "bands" : {
+              "high" : {
+                "color" : "#008000",
+                "label" : ""
+              },
+              "low" : {
+                "color" : "#B22222",
+                "label" : ""
+              },
+              "medium" : {
+                "color" : "#ffa500",
+                "label" : ""
+              }
+            }
+          },
+          "dashLine" : {
+            "measures" : "",
+            "showDashLine" : false
+          },
+          "timeAxis" : {
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "Created Date"
+          },
+          "fillArea" : true,
+          "columnMap" : {
+            "split" : [ ],
+            "timeAxis" : [
+              "CreatedDate_Year~~~CreatedDate_Month"
+            ],
+            "trellis" : [ ],
+            "plots" : [
+              "Noof_agents_with_recomm",
+              "Postedrecomm",
+              "Editarecomm",
+              "Nothelpfulrecomm"
+            ]
+          },
+          "showActionMenu" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "Users",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "step" : "Clone_of_Table_2"
+        },
+        "type" : "chart"
+      },
+      "chart_31" : {
+        "parameters" : {
+          "showValues" : true,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : true,
+            "show" : true,
+            "customSize" : "auto",
+            "position" : "right-top",
+            "inside" : false
+          },
+          "axisMode" : "multi",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "polargauge",
+          "medium" : 33,
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "Not Helpful",
+            "align" : "left",
+            "subtitleLabel" : ""
+          },
+          "binValues" : false,
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "colors" : {
+            "mediumColor2" : "#F29946",
+            "mediumColor1" : "#FED444",
+            "lowColor1" : "#F71979",
+            "lowColor2" : "#CC203D",
+            "highColor1" : "#7BDE4E",
+            "highColor2" : "#169913"
+          },
+          "high" : 66,
+          "min" : 0,
+          "valueType" : "compactNumber",
+          "theme" : "dark",
+          "dimensionAxis" : {
+            "showTitle" : true,
+            "customSize" : "auto",
+            "showAxis" : true,
+            "title" : "",
+            "icons" : {
+              "useIcons" : false,
+              "iconProps" : {
+                "fit" : "cover",
+                "column" : "",
+                "type" : "round"
+              }
+            }
+          },
+          "applyConditionalFormatting" : true,
+          "autoFitMode" : "keepLabels",
+          "bins" : {
+            "breakpoints" : {
+              "high" : 100,
+              "low" : 0
+            },
+            "bands" : {
+              "high" : {
+                "color" : "#008000",
+                "label" : ""
+              },
+              "low" : {
+                "color" : "#B22222",
+                "label" : ""
+              },
+              "medium" : {
+                "color" : "#ffa500",
+                "label" : ""
+              }
+            }
+          },
+          "max" : "{{cell(all_1.result, 0, \"D\").asString()}}",
+          "icons" : {
+            "useIcons" : false,
+            "iconProps" : {
+              "fit" : "cover",
+              "column" : ""
+            }
+          },
+          "inner" : 80,
+          "columnProperties" : { },
+          "columnMap" : {
+            "trellis" : [ ],
+            "plots" : [
+              "Count_NH"
+            ]
+          },
+          "showActionMenu" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "step" : "all_30"
+        },
+        "type" : "chart"
+      },
+      "chart_30" : {
+        "parameters" : {
+          "showValues" : true,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : true,
+            "show" : true,
+            "customSize" : "auto",
+            "position" : "right-top",
+            "inside" : false
+          },
+          "axisMode" : "multi",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "polargauge",
+          "medium" : 33,
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "Edits",
+            "align" : "left",
+            "subtitleLabel" : ""
+          },
+          "binValues" : false,
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              100,
+              100
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "colors" : {
+            "mediumColor2" : "#F29946",
+            "mediumColor1" : "#FED444",
+            "lowColor1" : "#F71979",
+            "lowColor2" : "#CC203D",
+            "highColor1" : "#7BDE4E",
+            "highColor2" : "#169913"
+          },
+          "high" : 66,
+          "min" : 0,
+          "valueType" : "number",
+          "theme" : "dark",
+          "dimensionAxis" : {
+            "showTitle" : true,
+            "customSize" : "auto",
+            "showAxis" : true,
+            "title" : "",
+            "icons" : {
+              "useIcons" : false,
+              "iconProps" : {
+                "fit" : "cover",
+                "column" : "",
+                "type" : "round"
+              }
+            }
+          },
+          "applyConditionalFormatting" : true,
+          "autoFitMode" : "keepLabels",
+          "bins" : {
+            "breakpoints" : {
+              "high" : 100,
+              "low" : 0
+            },
+            "bands" : {
+              "high" : {
+                "color" : "#008000",
+                "label" : ""
+              },
+              "low" : {
+                "color" : "#B22222",
+                "label" : ""
+              },
+              "medium" : {
+                "color" : "#ffa500",
+                "label" : ""
+              }
+            }
+          },
+          "max" : "{{cell(all_1.result, 0, \"D\").asString()}}",
+          "icons" : {
+            "useIcons" : false,
+            "iconProps" : {
+              "fit" : "cover",
+              "column" : ""
+            }
+          },
+          "inner" : 80,
+          "columnMap" : {
+            "trellis" : [ ],
+            "plots" : [
+              "Count_EDIT"
+            ]
+          },
+          "showActionMenu" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "step" : "all_30"
+        },
+        "type" : "chart"
+      },
+      "text_36" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Most Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_32" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "16px"
+                },
+                "insert" : "[PERC_EDIT_PEN] "
+              },
+              {
+                "attributes" : {
+                  "color" : "#ffffff"
+                },
+                "insert" : "of interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "PERC_EDIT_PEN" : {
+                "field" : "PERC_EDIT_PEN",
+                "sourceType" : "result",
+                "step" : "all_30"
+              }
+            }
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "number_9" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Count_EDIT",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 16,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "text_31" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "16px"
+                },
+                "insert" : "[PERC_NH_PEN] "
+              },
+              {
+                "attributes" : {
+                  "color" : "#ffffff"
+                },
+                "insert" : "of interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "PERC_NH_PEN" : {
+                "field" : "PERC_NH_PEN",
+                "sourceType" : "result",
+                "step" : "all_30"
+              }
+            }
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "number_8" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "AHD_Engagedconversation_min",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 32,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#091A3E",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_7" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Count_POST",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 16,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "number_6" : {
+        "parameters" : {
+          "compact" : false,
+          "exploreLink" : true,
+          "measureField" : "Engaged_Conversations_Rate",
+          "numberColor" : "#FFFFFF",
+          "numberSize" : 32,
+          "showActionMenu" : true,
+          "step" : "all_30",
+          "textAlignment" : "center",
+          "title" : "",
+          "titleColor" : "#FFFFFF",
+          "titleSize" : 16,
+          "tooltip" : {
+            "customizeTooltip" : false
+          }
+        },
+        "type" : "number"
+      },
+      "text_30" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "16px"
+                },
+                "insert" : "[PERC_POST_PEN] of interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ],
+            "values" : {
+              "PERC_POST_PEN" : {
+                "field" : "PERC_POST_PEN",
+                "sourceType" : "result",
+                "step" : "all_30"
+              }
+            }
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "chart_29" : {
+        "parameters" : {
+          "showValues" : true,
+          "legend" : {
+            "descOrder" : false,
+            "showHeader" : true,
+            "show" : true,
+            "customSize" : "auto",
+            "position" : "right-top",
+            "inside" : false
+          },
+          "axisMode" : "multi",
+          "tooltip" : {
+            "content" : {
+              "legend" : {
+                "showBinLabel" : true,
+                "measures" : [ ],
+                "showNullValues" : true,
+                "customizeLegend" : false,
+                "showPercentage" : true,
+                "showDimensions" : true,
+                "showMeasures" : true,
+                "dimensions" : [ ]
+              }
+            }
+          },
+          "visualizationType" : "polargauge",
+          "medium" : 33,
+          "exploreLink" : true,
+          "title" : {
+            "fontSize" : 14,
+            "subtitleFontSize" : 11,
+            "label" : "Posts",
+            "align" : "left",
+            "subtitleLabel" : ""
+          },
+          "binValues" : false,
+          "trellis" : {
+            "flipLabels" : false,
+            "showGridLines" : true,
+            "size" : [
+              50,
+              50
+            ],
+            "enable" : false,
+            "type" : "x",
+            "chartsPerLine" : 4
+          },
+          "colors" : {
+            "mediumColor2" : "rgb(149, 255, 255)",
+            "mediumColor1" : "rgb(149, 255, 255)",
+            "lowColor1" : "rgb(149, 255, 255)",
+            "lowColor2" : "rgb(149, 255, 255)",
+            "highColor1" : "rgb(149, 255, 255)",
+            "highColor2" : "rgb(149, 255, 255)"
+          },
+          "high" : 66,
+          "min" : 0,
+          "valueType" : "compactNumber",
+          "theme" : "dark",
+          "dimensionAxis" : {
+            "showTitle" : true,
+            "customSize" : "auto",
+            "showAxis" : true,
+            "title" : "",
+            "icons" : {
+              "useIcons" : false,
+              "iconProps" : {
+                "fit" : "cover",
+                "column" : "",
+                "type" : "round"
+              }
+            }
+          },
+          "applyConditionalFormatting" : true,
+          "autoFitMode" : "keepLabels",
+          "bins" : {
+            "breakpoints" : {
+              "high" : 100,
+              "low" : 0
+            },
+            "bands" : {
+              "high" : {
+                "color" : "rgb(149, 255, 255)",
+                "label" : ""
+              },
+              "low" : {
+                "color" : "rgb(149, 255, 255)",
+                "label" : ""
+              },
+              "medium" : {
+                "color" : "rgb(149, 255, 255)",
+                "label" : ""
+              }
+            }
+          },
+          "max" : "{{cell(all_1.result, 0, \"D\").asString()}}",
+          "icons" : {
+            "useIcons" : false,
+            "iconProps" : {
+              "fit" : "cover",
+              "column" : ""
+            }
+          },
+          "inner" : 80,
+          "columnMap" : {
+            "trellis" : [ ],
+            "plots" : [
+              "Count_POST"
+            ]
+          },
+          "showActionMenu" : true,
+          "measureAxis2" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "measureAxis1" : {
+            "sqrtScale" : false,
+            "showTitle" : true,
+            "showAxis" : true,
+            "title" : "",
+            "customDomain" : {
+              "showDomain" : false
+            }
+          },
+          "step" : "all_30"
+        },
+        "type" : "chart"
+      },
+      "dateselector_4" : {
+        "parameters" : {
+          "absoluteModeEnabled" : true,
+          "calendarTypeSwitchingAllowed" : true,
+          "defaultFiscalMode" : false,
+          "displayMode" : "filter",
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : false,
+          "presetsEnabled" : true,
+          "relativeModeEnabled" : true,
+          "showActionMenu" : true,
+          "step" : "CreatedDate_1",
+          "title" : "Date Range"
+        },
+        "type" : "dateselector"
+      },
+      "dateselector_2" : {
+        "parameters" : {
+          "absoluteModeEnabled" : true,
+          "calendarTypeSwitchingAllowed" : true,
+          "defaultFiscalMode" : false,
+          "displayMode" : "filter",
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : false,
+          "presetsEnabled" : true,
+          "relativeModeEnabled" : true,
+          "showActionMenu" : true,
+          "step" : "CreatedDate_1",
+          "title" : "Date Range"
+        },
+        "type" : "dateselector"
+      },
+      "listselector_7" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "FeedbackType_1",
+          "title" : "FeedbackType"
+        },
+        "type" : "listselector"
+      },
+      "navigation_4" : {
+        "parameters" : {
+          "fontSize" : 16,
+          "selectedTab" : {
+            "backgroundColor" : "#FFFFFF",
+            "borderColor" : "#0070D2",
+            "borderEdges" : [
+              "bottom"
+            ],
+            "borderWidth" : 2,
+            "textColor" : "#0070D2"
+          },
+          "tabCount" : 5,
+          "textColor" : "#54698D"
+        },
+        "type" : "navigation"
+      },
+      "listselector_9" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "FeedbackType_1",
+          "title" : "FeedbackType"
+        },
+        "type" : "listselector"
+      },
+      "listselector_8" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "UtteranceSpeakerType_1",
+          "title" : "UtteranceSpeakerType"
+        },
+        "type" : "listselector"
+      },
+      "text_29" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff"
+                },
+                "insert" : "Without Recommendations"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "listselector_3" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "UtteranceSpeakerType_1",
+          "title" : "UtteranceSpeakerType"
+        },
+        "type" : "listselector"
+      },
+      "listselector_2" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "showActionMenu" : true,
+          "step" : "TimeframeSelector_2",
+          "title" : "Timeframe"
+        },
+        "type" : "listselector"
+      },
+      "listselector_4" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "showActionMenu" : true,
+          "step" : "TimeframeSelector_1",
+          "title" : "Timeframe"
+        },
+        "type" : "listselector"
+      },
+      "text_25" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px",
+                  "bold" : true
+                },
+                "insert" : "Active Users"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_24" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px",
+                  "bold" : true
+                },
+                "insert" : "The number of conversations where agents interacted with Reply Recommendations"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_26" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "16px"
+                },
+                "insert" : "With Recommendations"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_21" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "QuickText Details"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "navigation_2" : {
+        "parameters" : {
+          "fontSize" : 16,
+          "selectedTab" : {
+            "backgroundColor" : "#FFFFFF",
+            "borderColor" : "#0070D2",
+            "borderEdges" : [
+              "bottom"
+            ],
+            "borderWidth" : 2,
+            "textColor" : "#0070D2"
+          },
+          "tabCount" : 5,
+          "textColor" : "#54698D"
+        },
+        "type" : "navigation"
+      },
+      "text_20" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px"
+                },
+                "insert" : "Assumptions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "navigation_1" : {
+        "parameters" : {
+          "fontSize" : 16,
+          "selectedTab" : {
+            "backgroundColor" : "#FFFFFF",
+            "borderColor" : "#0070D2",
+            "borderEdges" : [
+              "bottom"
+            ],
+            "borderWidth" : 2,
+            "textColor" : "#0070D2"
+          },
+          "tabCount" : 5,
+          "textColor" : "#54698D"
+        },
+        "type" : "navigation"
+      },
+      "text_23" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "24px",
+                  "bold" : true
+                },
+                "insert" : "Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "left"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "text_22" : {
+        "parameters" : {
+          "content" : {
+            "richTextContent" : [
+              {
+                "attributes" : {
+                  "color" : "#ffffff",
+                  "size" : "20px",
+                  "bold" : true
+                },
+                "insert" : "Recommendation Interactions"
+              },
+              {
+                "attributes" : {
+                  "align" : "center"
+                },
+                "insert" : "\n"
+              }
+            ]
+          },
+          "showActionMenu" : true
+        },
+        "type" : "text"
+      },
+      "table_5" : {
+        "parameters" : {
+          "borderColor" : "#a8b7c7",
+          "borderWidth" : 1,
+          "cell" : {
+            "backgroundColor" : "#ffffff",
+            "fontColor" : "#16325c",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "columnProperties" : { },
+          "columns" : [ ],
+          "customBulkActions" : [ ],
+          "exploreLink" : true,
+          "header" : {
+            "backgroundColor" : "#16325c",
+            "fontColor" : "#ffffff",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "innerMajorBorderColor" : "#54698d",
+          "innerMinorBorderColor" : "#a8b7c7",
+          "mode" : "fittocontainer",
+          "numberOfLines" : 1,
+          "pivoted" : false,
+          "showActionMenu" : true,
+          "showRowIndexColumn" : false,
+          "step" : "all_10",
+          "totals" : true,
+          "verticalPadding" : 8
+        },
+        "type" : "table"
+      },
+      "table_6" : {
+        "parameters" : {
+          "borderColor" : "#a8b7c7",
+          "borderWidth" : 1,
+          "cell" : {
+            "backgroundColor" : "#ffffff",
+            "fontColor" : "#16325c",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "columnProperties" : {
+            "QuickText ID" : {
+              "parameters" : {
+                "alignment" : "left"
+              },
+              "type" : "text"
+            },
+            "Interactions" : {
+              "parameters" : {
+                "alignment" : "right"
+              },
+              "type" : "text"
+            },
+            "Reply Text" : {
+              "parameters" : {
+                "alignment" : "left"
+              },
+              "type" : "text"
+            }
+          },
+          "columns" : [ ],
+          "customBulkActions" : [ ],
+          "exploreLink" : true,
+          "header" : {
+            "backgroundColor" : "#16325c",
+            "fontColor" : "#ffffff",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "innerMajorBorderColor" : "#54698d",
+          "innerMinorBorderColor" : "#a8b7c7",
+          "mode" : "fittocontainer",
+          "numberOfLines" : 1,
+          "pivoted" : false,
+          "showActionMenu" : true,
+          "showRowIndexColumn" : false,
+          "step" : "Page3_chart1_1",
+          "totals" : true,
+          "verticalPadding" : 8
+        },
+        "type" : "table"
+      },
+      "table_7" : {
+        "parameters" : {
+          "borderColor" : "#a8b7c7",
+          "borderWidth" : 1,
+          "cell" : {
+            "backgroundColor" : "#ffffff",
+            "fontColor" : "#16325c",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "columnProperties" : {
+            "Not Helpful" : {
+              "parameters" : {
+                "alignment" : "right",
+                "width" : 88
+              },
+              "type" : "text"
+            },
+            "Reply Text" : {
+              "parameters" : {
+                "alignment" : "left",
+                "width" : 236
+              },
+              "type" : "text"
+            }
+          },
+          "columns" : [ ],
+          "customBulkActions" : [ ],
+          "exploreLink" : true,
+          "header" : {
+            "backgroundColor" : "#16325c",
+            "fontColor" : "#ffffff",
+            "fontSize" : 12,
+            "textWrap" : true
+          },
+          "innerMajorBorderColor" : "#54698d",
+          "innerMinorBorderColor" : "#a8b7c7",
+          "maxColumnWidth" : 300,
+          "minColumnWidth" : 40,
+          "mode" : "variable",
+          "numberOfLines" : 1,
+          "pivoted" : false,
+          "showActionMenu" : true,
+          "showRowIndexColumn" : false,
+          "step" : "Clone_of_Page3_chart_1",
+          "totals" : true,
+          "verticalPadding" : 8
+        },
+        "type" : "table"
+      },
+      "listselector_1" : {
+        "parameters" : {
+          "compact" : false,
+          "displayMode" : "filter",
+          "exploreLink" : false,
+          "filterStyle" : {
+            "titleColor" : "#FFFFFF",
+            "valueColor" : "#FFFFFF"
+          },
+          "instant" : true,
+          "measureField" : "count",
+          "showActionMenu" : true,
+          "step" : "FeedbackType_1",
+          "title" : "FeedbackType"
+        },
+        "type" : "listselector"
+      }
+    }
+  }
+}

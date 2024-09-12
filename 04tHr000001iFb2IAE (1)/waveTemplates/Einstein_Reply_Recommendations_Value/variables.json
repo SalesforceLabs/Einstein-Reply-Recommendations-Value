@@ -1,0 +1,119 @@
+{
+  "Overrides" : {
+    "label" : "Overrides",
+    "description" : "Internal configuration to allow asset creation overrides, not to be displayed in UI.",
+    "defaultValue" : {
+      "createAllDashboards" : true,
+      "createAllComponents" : true,
+      "createAllLenses" : true,
+      "createAllExternalFiles" : true,
+      "createDataflow" : true,
+      "createAllDatasetFiles" : true,
+      "createAllImages" : true,
+      "createAllRecipes" : true
+    },
+    "required" : true,
+    "excludeSelected" : false,
+    "excludes" : [ ],
+    "variableType" : {
+      "required" : [
+        "createAllExternalFiles",
+        "createAllDashboards",
+        "createAllComponents",
+        "createAllImages",
+        "createAllDatasetFiles",
+        "createAllLenses",
+        "createDataflow",
+        "createAllRecipes"
+      ],
+      "type" : "ObjectType",
+      "properties" : {
+        "createAllDashboards" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllComponents" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllLenses" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllExternalFiles" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createDataflow" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllDatasetFiles" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllImages" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        },
+        "createAllRecipes" : {
+          "type" : "BooleanType",
+          "enums" : [
+            true,
+            false
+          ]
+        }
+      },
+      "strictValidation" : true
+    }
+  },
+  "AgentHourCost": {
+    "required" : true,
+    "label": "How much does an Agent-Hour cost (in org currency)?",
+    "variableType": {
+      "type": "NumberType"
+    }
+  },
+  "PostTimeSaved": {
+    "required" : true,
+    "label": "How much time is saved when an agent posts a recommended reply?",
+    "variableType": {
+      "type": "NumberType"
+    }
+  },
+  "EditTimeSaved": {
+    "required" : true,
+    "label": "How much time is saved when an agent edits a recommended reply?",
+    "variableType": {
+      "type": "NumberType"
+    }
+  },
+  "NotHelpfulTimeConsumed": {
+    "required" : false,
+    "label": "How much time is saved when an agent Not-Helpful a recommended reply?",
+    "variableType": {
+      "type": "NumberType"
+    }
+  }
+}

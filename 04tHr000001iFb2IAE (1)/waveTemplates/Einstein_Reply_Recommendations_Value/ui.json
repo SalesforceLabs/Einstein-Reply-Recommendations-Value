@@ -1,0 +1,14 @@
+{
+  "pages" : [
+   
+    {
+      "title":"Define Metrics for Einstein Reply Recommendations",
+      "variables":[
+        {"name": "AgentHourCost"},
+        {"name": "PostTimeSaved" },
+        {"name": "EditTimeSaved" }
+      ]
+    }
+  ],
+  "displayMessages" : [ ]
+}

@@ -1,0 +1,325 @@
+{
+  "name" : "Einstein_Reply_Recommendations_Value",
+  "label" : "Einstein Reply Recommendations Value",
+  "scheduleExpression" : null,
+  "publishingTarget" : "DATASET",
+  "format" : "R3",
+  "scheduleType" : null,
+  "recipeDefinition" : {
+    "version" : "55.0",
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "action" : "load",
+        "sources" : [ ],
+        "parameters" : {
+          "fields" : [
+            "Id",
+            "IsDeleted",
+            "Name",
+            "CreatedDate",
+            "CreatedById",
+            "LastModifiedDate",
+            "LastModifiedById",
+            "SystemModstamp",
+            "ConversationId",
+            "ResponseId",
+            "FeedbackType",
+            "ConversationTurnNumber",
+            "UtteranceSpeakerType",
+            "ResponseRank",
+            "ResponseScore",
+            "UserId",
+            "ExternalRequestIdentifier"
+          ],
+          "dataset" : {
+            "type" : "connectedDataset",
+            "label" : "MlRetrainingFeedback",
+            "connectionName" : "SFDC_LOCAL",
+            "sourceObjectName" : "MlRetrainingFeedback"
+          },
+          "sampleDetails" : {
+            "type" : "TopN",
+            "sortBy" : [ ]
+          }
+        }
+      },
+      "JOIN0" : {
+        "action" : "join",
+        "sources" : [
+          "FORMULA3",
+          "LOAD_DATASET3"
+        ],
+        "schema" : {
+          "fields" : [ ],
+          "slice" : {
+            "mode" : "DROP",
+            "ignoreMissingFields" : true,
+            "fields" : [ ]
+          }
+        },
+        "parameters" : {
+          "joinType" : "LEFT_OUTER",
+          "leftKeys" : [
+            "ConversationId"
+          ],
+          "rightKeys" : [
+            "WorkItemId"
+          ]
+        }
+      },
+      "LOAD_DATASET3" : {
+        "action" : "load",
+        "sources" : [ ],
+        "parameters" : {
+          "fields" : [
+            "WorkItemId",
+            "HandleTime",
+            "ActiveTime"
+          ],
+          "dataset" : {
+            "type" : "connectedDataset",
+            "label" : "AgentWork",
+            "connectionName" : "SFDC_LOCAL",
+            "sourceObjectName" : "AgentWork"
+          },
+          "sampleDetails" : {
+            "type" : "TopN",
+            "sortBy" : [ ]
+          }
+        }
+      },
+      "OUTPUT0" : {
+        "action" : "save",
+        "sources" : [
+          "JOIN0"
+        ],
+        "parameters" : {
+          "fields" : [ ],
+          "dataset" : {
+            "type" : "analyticsDataset",
+            "label" : "ERR_Dataset",
+            "name" : "${App.Datasets.ERR_Dataset_tp.Name}",
+            "folderName" : "${App.Folder.FullyQualifiedName}"
+          }
+        }
+      },
+      "FORMULA1" : {
+        "action" : "formula",
+        "sources" : [
+          "JOIN1"
+        ],
+        "parameters" : {
+          "expressionType" : "SQL",
+          "fields" : [
+            {
+              "type" : "DATE_ONLY",
+              "name" : "CreatedDate_Week_First_Date",
+              "label" : "CreatedDate_Week_First_Date",
+              "formulaExpression" : "date_add(date_sub(to_date(CreatedDate,'yyyy-MM-dd'),dayofweek(to_date(CreatedDate,'yyyy-MM-dd'))),1)",
+              "format" : "yyyy-MM-dd",
+              "defaultValue" : ""
+            }
+          ]
+        }
+      },
+      "FORMULA2" : {
+        "action" : "formula",
+        "sources" : [
+          "FORMULA1"
+        ],
+        "parameters" : {
+          "expressionType" : "SQL",
+          "fields" : [
+            {
+              "type" : "DATE_ONLY",
+              "name" : "CreatedDate_Month_First_Date",
+              "label" : "CreatedDate_Month_First_Date",
+              "formulaExpression" : "date_add(date_sub(to_date(CreatedDate,'yyyy-MM-dd'),dayofmonth(to_date(CreatedDate,'yyyy-MM-dd'))),1)",
+              "format" : "yyyy-MM-dd",
+              "defaultValue" : ""
+            }
+          ]
+        }
+      },
+      "FORMULA3" : {
+        "action" : "formula",
+        "sources" : [
+          "FORMULA2"
+        ],
+        "parameters" : {
+          "expressionType" : "SQL",
+          "fields" : [
+            {
+              "type" : "DATE_ONLY",
+              "name" : "CreatedDate_Quarter_First_Date",
+              "label" : "CreatedDate_Quarter_First_Date",
+              "formulaExpression" : "case \n\twhen quarter(to_date(CreatedDate, 'yyyy-MM-dd')) = 1 \n\tthen to_date(concat(year(CreatedDate),-01,-01), 'yyyy-MM-dd')\n\twhen quarter(to_date(CreatedDate, 'yyyy-MM-dd')) = 2 \n\tthen to_date(concat(year(CreatedDate),-04,-01), 'yyyy-MM-dd')\n\twhen quarter(to_date(CreatedDate, 'yyyy-MM-dd')) = 3 \n\tthen to_date(concat(year(CreatedDate),-07,-01), 'yyyy-MM-dd')\n\twhen quarter(to_date(CreatedDate, 'yyyy-MM-dd')) = 4 \n\tthen to_date(concat(year(CreatedDate),-10,-01), 'yyyy-MM-dd')\nend\n\n\n\n",
+              "format" : "yyyy-MM-dd",
+              "defaultValue" : ""
+            }
+          ]
+        }
+      },
+      "LOAD_DATASET4" : {
+        "action" : "load",
+        "sources" : [ ],
+        "parameters" : {
+          "fields" : [
+            "Id",
+            "Message"
+          ],
+          "dataset" : {
+            "type" : "connectedDataset",
+            "label" : "QuickText",
+            "connectionName" : "SFDC_LOCAL",
+            "sourceObjectName" : "QuickText"
+          },
+          "sampleDetails" : {
+            "type" : "TopN",
+            "sortBy" : [ ]
+          }
+        }
+      },
+      "JOIN1" : {
+        "action" : "join",
+        "sources" : [
+          "LOAD_DATASET0",
+          "LOAD_DATASET4"
+        ],
+        "schema" : {
+          "fields" : [ ],
+          "slice" : {
+            "mode" : "DROP",
+            "ignoreMissingFields" : true,
+            "fields" : [ ]
+          }
+        },
+        "parameters" : {
+          "joinType" : "LEFT_OUTER",
+          "leftKeys" : [
+            "ResponseId"
+          ],
+          "rightQualifier" : "QT",
+          "rightKeys" : [
+            "Id"
+          ]
+        }
+      }
+    },
+    "ui" : {
+      "nodes" : {
+        "LOAD_DATASET0" : {
+          "label" : "MlRetrainingFeedback",
+          "type" : "LOAD_DATASET",
+          "top" : 252.2,
+          "left" : 112.30000000000001,
+          "parameters" : {
+            "sampleSize" : 2000
+          }
+        },
+        "JOIN0" : {
+          "label" : "Join 0",
+          "type" : "JOIN",
+          "top" : 112.5,
+          "left" : 671.8
+        },
+        "LOAD_DATASET3" : {
+          "label" : "AgentWork",
+          "type" : "LOAD_DATASET",
+          "top" : 392.1,
+          "left" : 112.1,
+          "parameters" : {
+            "sampleSize" : 2000
+          }
+        },
+        "OUTPUT0" : {
+          "label" : "MRF_AW_Output",
+          "description" : "",
+          "type" : "OUTPUT",
+          "top" : 112.19999999999999,
+          "left" : 811.3
+        },
+        "TRANSFORM1" : {
+          "label" : "Transform 1",
+          "type" : "TRANSFORM",
+          "top" : 112.1,
+          "left" : 532.1,
+          "graph" : {
+            "FORMULA1" : {
+              "parameters" : {
+                "type" : "BASE_FORMULA_UI"
+              },
+              "label" : "Formula"
+            },
+            "FORMULA2" : {
+              "parameters" : {
+                "type" : "BASE_FORMULA_UI"
+              },
+              "label" : "Formula"
+            },
+            "FORMULA3" : {
+              "parameters" : {
+                "type" : "BASE_FORMULA_UI"
+              },
+              "label" : "Formula"
+            }
+          },
+          "connectors" : [
+            {
+              "source" : "FORMULA1",
+              "target" : "FORMULA2"
+            },
+            {
+              "source" : "FORMULA2",
+              "target" : "FORMULA3"
+            }
+          ]
+        },
+        "LOAD_DATASET4" : {
+          "label" : "QuickText",
+          "type" : "LOAD_DATASET",
+          "top" : 112.1,
+          "left" : 112.5,
+          "parameters" : {
+            "sampleSize" : 2000
+          }
+        },
+        "JOIN1" : {
+          "label" : "Join 1",
+          "type" : "JOIN",
+          "top" : 252.10000000000002,
+          "left" : 252
+        }
+      },
+      "connectors" : [
+        {
+          "source" : "TRANSFORM1",
+          "target" : "JOIN0"
+        },
+        {
+          "source" : "LOAD_DATASET3",
+          "target" : "JOIN0"
+        },
+        {
+          "source" : "JOIN0",
+          "target" : "OUTPUT0"
+        },
+        {
+          "source" : "JOIN1",
+          "target" : "TRANSFORM1"
+        },
+        {
+          "source" : "LOAD_DATASET0",
+          "target" : "JOIN1"
+        },
+        {
+          "source" : "LOAD_DATASET4",
+          "target" : "JOIN1"
+        }
+      ],
+      "hiddenColumns" : [ ],
+      "assetType" : "TCRM"
+    }
+  },
+  "lastTime" : null
+}

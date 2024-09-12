@@ -1,0 +1,33 @@
+{
+  "constants" : [ ],
+  "macros" : [ ],
+  "rules" : [ {
+    "name": "Value_1",
+    "appliesTo": [
+      {
+        "type": "dashboard",
+        "name": "Einstein_Reply_Recommendations_Value_tp"
+      }
+    ],
+    "actions": [
+      { 
+        "action": "set",
+        "description": "How much does an Agent-Hour cost (in org currency)",
+        "path": "$.state.steps.Value_1.values[0].AgentHourCost",
+        "value": "${Variables.AgentHourCost}"
+      },
+      { 
+        "action": "set",
+        "description": "How much time is saved when an agent attaches a recommended article?",
+        "path": "$.state.steps.Value_1.values[0].PostTimeSaved",
+        "value": "${Variables.PostTimeSaved}"
+      },
+      { 
+        "action": "set",
+        "description": "How much time is saved when an agent clicks a recommended article?",
+        "path": "$.state.steps.Value_1.values[0].EditTimeSaved",
+        "value": "${Variables.EditTimeSaved}"
+      }
+    ]
+  }]
+}

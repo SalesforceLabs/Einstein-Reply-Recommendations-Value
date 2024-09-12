@@ -1,0 +1,112 @@
+{
+  "templateType" : "app",
+  "label" : "Einstein Reply Recommendations Value",
+  "name" : "Einstein_Reply_Recommendations_Value",
+  "description" : "Get insight into your reply recommendations model with a comprehensive dashboard. Use these views to identify Einstein’s strengths, quantify your productivity gains, and spot areas for improvement.",
+  "assetVersion" : 55.0,
+  "variableDefinition" : "variables.json",
+  "uiDefinition" : "ui.json",
+  "rules" : [
+    {
+      "type" : "templateToApp",
+      "file" : "template-to-app-rules.json"
+    },
+    {
+      "type" : "appToTemplate",
+      "file" : "app-to-template-rules.json"
+    }
+  ],
+  "releaseInfo" : {
+    "templateVersion" : "1.20",
+    "notesFile" : "releaseNotes.html"
+  },
+  "apexCallback" : {
+    "namespace" : "ailabs",
+    "name" : "ERRAnalyticsWaveTemplateConfig"
+  },
+  "folderDefinition" : "folder.json",
+  "externalFiles" : [ ],
+  "lenses" : [ ],
+  "dashboards" : [
+    {
+      "label" : "Einstein Reply Recommendations Value",
+      "name" : "Einstein_Reply_Recommendations_Value_tp",
+      "condition" : "${Variables.Overrides.createAllDashboards}",
+      "file" : "dashboards/Einstein_Reply_Recommendations_Value.json"
+    }
+  ],
+  "components" : [ ],
+  "eltDataflows" : [ ],
+  "recipes" : [
+    {
+      "label" : "Einstein Reply Recommendations Value",
+      "name" : "Einstein_Reply_Recommendations_Value",
+      "condition" : "${Variables.Overrides.createAllRecipes}",
+      "file" : "recipes/Einstein_Reply_Recommendations_Value.json"
+    }
+  ],
+  "datasetFiles" : [
+    {
+      "label" : "ERR_Dataset",
+      "name" : "ERR_Dataset_tp",
+      "condition" : "${Variables.Overrides.createAllDatasetFiles}",
+      "userXmd" : "dataset_files/ERR_Dataset_XMD.json"
+    }
+  ],
+  "storedQueries" : [ ],
+  "imageFiles" : [ ],
+  "customAttributes" : [
+    {
+      "label" : "Features",
+      "values" : [
+        "Desktop",
+        "Einstein Reply Recommendations Value",
+        "Business Value",
+        "KPIs"
+      ]
+    },
+    {
+      "label" : "Generates",
+      "values" : [
+        "1 Dashboard",
+        "1 Dataset",
+        "1 Recipe"
+      ]
+    }
+  ],
+  "extendedTypes" : { },
+  "templateDependencies" : [ ],
+  "tags" : [
+    "Einstein Reply Recommendations Value",
+    "Service Cloud Einstein",
+    "Business Value"
+  ],
+  "icons" : {
+    "appBadge" : {
+      "name" : "16.png"
+    },
+    "templateBadge" : {
+      "name" : "default.png"
+    },
+    "templatePreviews" : [
+      {
+        "namespace" : "ailabs",
+        "name" : "Business_Value_ERR",
+        "label" : "Business Value Tab",
+        "description" : "Build reports and visualizations of reply recommendations business value, KPIs, and exclusive analytics."
+      },
+      {
+        "namespace" : "ailabs",
+        "name" : "Agent_Interation_ERR",
+        "label" : "Agent Interaction Tab",
+        "description" : "Track trends in agent interactions to identify the most useful replies and areas for improvement."
+      },
+      {
+        "namespace" : "ailabs",
+        "name" : "Quick_Text_Performance_ERR",
+        "label" : "Quick Text Performance Tab",
+        "description" : "Measure reply performance by showing the most and least posted replies. "
+      }
+    ]
+  }
+}
